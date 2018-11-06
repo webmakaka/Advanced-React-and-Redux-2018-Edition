@@ -17,6 +17,11 @@ https://github.com/StephenGrider/ReduxSimpleStarter
 
     $ npm install --save axios redux-promise moxios
 
+<br/>
+
+## Higher Order Components
+
+    $ npm install --save react-router-dom
 
 ---
 
