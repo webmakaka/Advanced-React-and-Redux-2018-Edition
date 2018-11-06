@@ -23,6 +23,15 @@ https://github.com/StephenGrider/ReduxSimpleStarter
 
     $ npm install --save react-router-dom
 
+<br/>
+
+## MIddlewares with Redux
+
+    $ npm install --save tv4
+
+jsonschema.net
+
+
 ---
 
 **Marley**
