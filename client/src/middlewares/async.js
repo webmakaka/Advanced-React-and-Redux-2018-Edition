@@ -8,3 +8,12 @@ export default ({ dispatch }) => (next) => (action) => {
     dispatch(newAction);
   });
 }
+
+
+// export default function({ dispatch }) {
+//   return function (next) {
+//     return function (action) {
+
+//     }
+//   }
+// }
