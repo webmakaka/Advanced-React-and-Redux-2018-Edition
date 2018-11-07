@@ -53,15 +53,36 @@ jsonschema.net
 
     $ curl -X POST http://localhost/signup -d '{ "email": "email@email.com", "password": "password1"}'
    
-resulst:
+result:
     {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1YmUyZmU4MmExMzAyYjA5ZWQxNmYzMmEiLCJpYXQiOjE1NDE2MDI5NDY1NjN9.JpDEceLVHX4_awvWcXtgzQz_K_oBtmx7Lz0IPSLVmlM"}
 
 <br/>
     $ curl http://localhost/ -H "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1YmUyZmU4MmExMzAyYjA5ZWQxNmYzMmEiLCJpYXQiOjE1NDE2MDI5NDY1NjN9.JpDEceLVHX4_awvWcXtgzQz_K_oBtmx7Lz0IPSLVmlM" 
 
-resulst:
+result:
 
     {"hi":"there"}
+
+
+<br/>
+
+### Local Strategy
+
+    $ npm install --save passport-local       
+
+    $ curl -X POST http://localhost/signin -d '{ "email": "email@email.com", "password": "password1"}'
+
+result:
+    {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1YmUyZmU4MmExMzAyYjA5ZWQxNmYzMmEiLCJpYXQiOjE1NDE2MDg2NTUxMjB9.csMGEmmpDQHIKc887_dwHPLiVwLxhEoF7XukkPlrfZs"}
+
+<br/>
+
+![Application](/img/pic1.png?raw=true)
+
+<br/>
+
+![Application](/img/pic2.png?raw=true)
+
 
 ---
 
