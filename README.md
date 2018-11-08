@@ -83,6 +83,25 @@ result:
 
 ![Application](/img/pic2.png?raw=true)
 
+<br/>
+
+## Client Side Auth
+
+    $ rm -rf client/
+    $ npx create-react-app client
+
+    $ cd client
+    $ npm install --save react-router-dom redux react-redux redux-form axios redux-thunk
+    $ rm -rf src
+
+    $ cd server
+    $ npm install --save cors
+
+<br/>
+
+![Application](/img/pic3.png?raw=true)
+
+
 
 ---
 
